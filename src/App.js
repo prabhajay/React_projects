@@ -1,8 +1,11 @@
-import { Accordion } from "./components/Accordion/Accordion";
+//import { Accordion } from "./components/Accordion/Accordion";
+import { RandomColor } from "./components/RandomColor/RandomColor";
 function App() {
   return (
     <div className="App">
-    <Accordion />
+    
+    {/*<Accordion /> */}
+    <RandomColor /> 
     </div>
   );
 }

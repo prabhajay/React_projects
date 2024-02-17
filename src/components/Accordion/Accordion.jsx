@@ -37,8 +37,8 @@ export const Accordion = () => {
               <div
                 onClick={
                   enableMultiSelection
-                    ? () => handleSingleSelection(dataItem.id)
-                    : () => handleMultipleSelection(dataItem.id)
+                    ? () => handleMultipleSelection(dataItem.id)
+                    : () => handleSingleSelection(dataItem.id)
                 }
                 className="title"
               >
